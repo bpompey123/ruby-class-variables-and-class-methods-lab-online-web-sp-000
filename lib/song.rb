@@ -40,4 +40,6 @@ class Song
     new_hash
   end
 
+  def self
+
 end
