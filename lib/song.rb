@@ -33,6 +33,7 @@ class Song
     @@genres.each do |keys|
 
     end
+    new_hash
   end
 
 end
