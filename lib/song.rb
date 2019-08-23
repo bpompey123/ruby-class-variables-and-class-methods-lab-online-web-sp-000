@@ -32,7 +32,8 @@ class Song
   def self.genre_count
     new_hash = {}
     @@genres.each do |genre|
-      binding.pry
+      new_hash[genre] = 0
+  #    binding.pry
     end
     new_hash
   end
